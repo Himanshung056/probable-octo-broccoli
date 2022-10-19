@@ -11,7 +11,8 @@ files[] = {"id":"452504-772c191c-f701-44e2-8fee-b53afff64b62","path":"aa.json","
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"index.proto","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:3
+type = proto:3
+rootFiles[] = index.proto
